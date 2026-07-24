@@ -342,7 +342,6 @@ Run all tests:
 ```
 mvnw.cmd test
 ```
-
 The three included tests:
 
 - **`encryptDecryptRoundTrip`** — sanity-check that hybrid encryption is symmetric.
