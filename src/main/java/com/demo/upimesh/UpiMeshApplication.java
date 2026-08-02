@@ -1,5 +1,4 @@
 package com.demo.upimesh;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
