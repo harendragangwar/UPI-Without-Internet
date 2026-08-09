@@ -16,7 +16,6 @@ import java.math.BigDecimal;
  *              a hash held by the bank. Here we just record it for realism.
  */
 public class PaymentInstruction {
-
     private String senderVpa;
     private String receiverVpa;
     private BigDecimal amount;
