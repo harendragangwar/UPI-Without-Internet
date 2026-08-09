@@ -36,10 +36,7 @@ public class HybridCryptoService {
     @Autowired
     private ServerKeyHolder serverKey;
 
-    /**
-     * Encrypt a payment instruction with the server's public key.
-     * Called by the simulated sender device.
-     */
+
     public String encrypt(PaymentInstruction instruction, PublicKey serverPublicKey) throws Exception {
         byte[] plaintext = json.writeValueAsBytes(instruction);
 
