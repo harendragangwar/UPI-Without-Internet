@@ -10,15 +10,6 @@ import org.springframework.web.bind.annotation.*;
 import java.math.BigDecimal;
 import java.util.*;
 
-/**
- * Public REST surface.
- *
- * The endpoints split into three groups:
- *   /api/server-key      → so simulated senders can fetch the server's public key
- *   /api/mesh/*          → simulator endpoints (inject, gossip, flush)
- *   /api/bridge/ingest   → THE real production endpoint a real bridge node would hit
- *   /api/accounts, /api/transactions → for the dashboard
- */
 @RestController
 @RequestMapping("/api")
 public class ApiController {
