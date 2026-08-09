@@ -19,10 +19,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * The killer test: simulates the "three bridges deliver at the same instant"
- * scenario the user explicitly cared about.
- */
 @SpringBootTest
 class IdempotencyConcurrencyTest {
 
