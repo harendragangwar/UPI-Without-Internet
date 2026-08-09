@@ -67,12 +67,6 @@ public class HybridCryptoService {
 
         return Base64.getEncoder().encodeToString(buf.array());
     }
-
-    /**
-     * Decrypt with the server's private key.
-     * If anything has been tampered with — wrong key, modified ciphertext,
-     * truncated input — this throws.
-     */
     public PaymentInstruction decrypt(String base64Ciphertext) throws Exception {
         byte[] all = Base64.getDecoder().decode(base64Ciphertext);
 
